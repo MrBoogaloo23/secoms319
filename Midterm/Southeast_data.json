@@ -1,0 +1,22 @@
+{
+    "Southeast Division Teams": [
+        {
+            "teamName": "Miami Heat",
+            "winP": 0.646,
+            "GamesBehind": 1,
+            "ConP": 0.673,
+            "HomeP": 0.707,
+            "HeadC": "Erik Spoelstra",
+            "img" : "heat.jpg"
+        },
+        {
+            "teamName": "Atlanta Hawks",
+            "winP": 0.524,
+            "GamesBehind": 10,
+            "ConP": 0.500,
+            "HomeP": 0.659,
+            "HeadC": "Nate McMillan",
+            "img" : "Hawks.jpg"
+        }
+    ]
+}

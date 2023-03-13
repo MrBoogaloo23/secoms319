@@ -1,0 +1,22 @@
+{
+    "Southwest Division Teams": [
+        {
+            "teamName": "Memphis Grizzlies",
+            "winP": 0.683,
+            "GamesBehind": 8,
+            "ConP": 0.692,
+            "HomeP": 0.732,
+            "HeadC": "Taylor Jenkins",
+            "img" : "Grizzlies.jpg"
+        },
+        {
+            "teamName": "Dallas Mavericks",
+            "winP": 0.634,
+            "GamesBehind": 12,
+            "ConP": 0.692,
+            "HomeP": 0.707,
+            "HeadC": "Jason Kidd",
+            "img" : "Mavericks.jpg"
+        }
+    ]
+}

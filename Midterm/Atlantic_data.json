@@ -1,0 +1,22 @@
+{
+    "Atlantic Division Teams": [
+        {
+            "teamName": "Boston Celtics",
+            "winP": 0.622,
+            "GamesBehind": 2,
+            "ConP": 0.630,
+            "HomeP": 0.683,
+            "HeadC": "Ime Udoka",
+            "img" : "Celtics.jpg"
+        },
+        {
+            "teamName": "Philedelphia 76ers",
+            "winP": 0.622,
+            "GamesBehind": 2,
+            "ConP": 0.635,
+            "HomeP": 0.585,
+            "HeadC": "Doc Rivers",
+            "img" : "76ers.jpg"
+        }
+    ]
+}

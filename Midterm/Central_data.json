@@ -1,0 +1,22 @@
+{
+    "Central Division Teams": [
+        {
+            "teamName": "Milwaukee Bucks",
+            "winP": 0.622,
+            "GamesBehind": 2,
+            "ConP": 0.635,
+            "HomeP": 0.659,
+            "HeadC": "Mike Budenholzer",
+            "img" : "Bucks.jpg"
+        },
+        {
+            "teamName": "Chicago Bulls",
+            "winP": 0.561,
+            "GamesBehind": 7,
+            "ConP": 0.558,
+            "HomeP": 0.659,
+            "HeadC": "Billy Donovan",
+            "img" : "Bulls.jpg"
+        }
+    ]
+}

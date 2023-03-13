@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Add the Bootstrap CSS file -->
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        th:nth-child(3),
+        td:nth-child(3),
+        th:nth-child(4),
+        td:nth-child(4),
+        th:nth-child(5),
+        td:nth-child(5) {
+            padding-right: 25px;
+        }
+        td:first-child {
+            padding-right: 35xpx;
+        }
+        td:nth-child(1), td:nth-child(2) {
+             padding-right: 10px;
+}
+    </style>
+     <style>
+           .td {
+        padding: 0 10px;
+    }
+    </style>
+    <style>
+		.container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 40vh;
+		}
+
+		.table {
+			margin: 0 auto;
+		}
+        
+        .split {
+        height: 100%;
+        width: 50%;
+        position: relative;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+        }
+
+    
+        .left {
+        left: 0;
+        }
+
+      
+        .right {
+        right: 0;
+        }
+
+
+        .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        }
+
+        .centered img {
+        width: 150px;
+        border-radius: 50%;
+        }
+	</style>
+    
+</head>
+<body>
+    <!-- Add the Bootstrap navbar inside the collapsible div section -->
+    <div class="collapse" id="navbarToggleExternalContent">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Baskteball</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">NBA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.html">Team Standings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="player.html">Player Standings</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://www.nba.com/games">Current games</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about_us.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <!-- Add the Bootstrap button that triggers the dropdown -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <h1 style="text-align:center"> Top NBA Players of the 2021-2022 season</h1>
+	<div class = "split left" style = "width: 50%; float: left;">
+        <table class = "table">
+            <thead>
+                <tr>
+                    <th>Player Name</th>
+                    <th>Team</th>
+                    <th>PPG</th>
+                    <th>APG</th>
+                    <th>RPG</th>
+                </tr>
+            </thead>
+            <tbody id="playerTableBodyLeft">
+            </tbody>
+        </table>
+    </div>
+	<script src = "east.js"> </script>
+    <div class = "split right">
+        <table class = "table">
+            <thead>
+                <tr>
+                    <th>Player Name</th>
+                    <th>Team</th>
+                    <th>PPG</th>
+                    <th>APG</th>
+                    <th>RPG</th>
+                </tr>
+            </thead>
+            <tbody id="playerTableBodyRight">
+            </tbody>
+        </table>
+    </div>
+    <script src = "west.js"> </script>
+    
+    <!-- Add the Bootstrap JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

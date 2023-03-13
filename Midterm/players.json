@@ -1,0 +1,43 @@
+{
+    "East Players": [
+
+{
+
+    "playerName": "Giannis Antetokounmpo",
+    "team": "Milwaukee Bucks",
+    "ppg": 29.9,
+    "apg": 5.8,
+    "rpg": 11.6,
+    "img": "giannis.jpg"
+
+  },
+  {
+    "playerName": "Kevin Durant",
+    "team": "Brooklyn Nets",
+    "ppg": 29.9,
+    "apg": 6.4,
+    "rpg": 7.4,
+    "img": "kevin.jpg"
+  }
+
+],
+"West Players": [
+ 
+    {
+      "playerName": "Nikola Jokic",
+      "team": "Denver Nuggets",
+      "ppg": 27.1,
+      "apg": 7.9,
+      "rpg": 13.8,
+      "img": "jokic.jpg"
+    },
+    {
+      "playerName": "Steph Curry",
+      "team": "Golden State Warriors",
+      "ppg": 25.5,
+      "apg": 6.3,
+      "rpg": 5.2,
+      "img": "Steph.jpg"
+    }
+  ]
+}

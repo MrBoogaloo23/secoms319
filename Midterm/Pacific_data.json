@@ -1,0 +1,22 @@
+{
+    "Pacific Division Teams": [
+        {
+            "teamName": "Pheonix Suns",
+            "winP": 0.780,
+            "GamesBehind": 0,
+            "ConP": 0.750,
+            "HomeP": 0.780,
+            "HeadC": "Monty Williams",
+            "img" : "Suns.jpg"
+        },
+        {
+            "teamName": "Golden State Warriors",
+            "winP": 0.646,
+            "GamesBehind": 11,
+            "ConP": 0.635,
+            "HomeP": 0.756,
+            "HeadC": "Steve Kerr",
+            "img" : "Warriors.jpg"
+        }
+    ]
+}

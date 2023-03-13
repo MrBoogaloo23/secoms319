@@ -1,0 +1,22 @@
+{
+    "Northwest Division Teams": [
+        {
+            "teamName": "Utah Jazz",
+            "winP": 0.598,
+            "GamesBehind": 15,
+            "ConP": 0.635,
+            "HomeP": 0.707,
+            "HeadC": "Quin Snyder",
+            "img" : "Jazz.jpg"
+        },
+        {
+            "teamName": "Denver Nuggets",
+            "winP": 0.585,
+            "GamesBehind": 16,
+            "ConP": 0.558,
+            "HomeP": 0.561,
+            "HeadC": "Michael Malone",
+            "img": "Nuggets.jpg"
+        }
+    ]
+}
